@@ -1,12 +1,12 @@
 body {
- font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 a {
- text-decoration: none;
+  text-decoration: none;
 }
-ul { list-style: none;
+ul { 
+  list-style: none;
 }
-
 
 .heder-logo {
 color: #2E2F42;
@@ -14,36 +14,46 @@ font-family: Raleway;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.16;
-letter-spacing: -0.03em;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
+
 .header-logo-web {
- color: #4D5AE5;
+  color: #4D5AE5;
 }
 
+color: var(--NAVY-BLUE, #2E2F42);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px;
+/* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
 
-.header-menu-item {
- color: #2E2F42;
-  font-family: Roboto;
+ 
+.header-menu-link {
+  color: #2E2F42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .header-menu-link {
- color: #2E2F42;
-}
+  color: #2E2F42;}
+
 .header-menu-link:hover,
 .header-menu-link:focus,
 .header-menu-link:active {
- color: #fd9222;
+ color: #fd9222;}
+
 /*.header-menu-link:hover {
  color: brown;
 }*/
 /*.header-menu-link:focus {
  color: brown;
 }*/
-
 
 .header-address {}
 
@@ -54,25 +64,26 @@ text-transform: uppercase;
 .main {}
 
 .hero {
- background-color: #2E2F42;
+  background-color: #2E2F42;
 }
 
 .hero-title {
- color: #FFF;
-  text-align: center;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1,07;
-  letter-spacing: 1.0,02em;
+  color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .hero-btn {
- color: #FFF;
+  color: #FFF;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+
 
 .section {}
 
