@@ -8,8 +8,22 @@ ul {
   list-style: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  overflow: hidden;
+}
+ /* class="header-logo-web"> */
+/*-------------heder--------------*/
+
 .heder-logo {
-color: #2E2F42;
+color: #4D5AE5;
 font-family: Raleway;
 font-size: 18px;
 font-weight: 700;
@@ -18,19 +32,15 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
-.header-logo-web {
-  color: #4D5AE5;
+.header-logo-span {
+  color: #2E2F42;
 }
 
-color: var(--NAVY-BLUE, #2E2F42);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 21px;
-/* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
+
+/* .header-logo-web {
+  color: #4D5AE5;
+} */
+
 
  
 .header-menu-link {
@@ -63,6 +73,10 @@ text-transform: uppercase;
 
 .main {}
 
+/*! ------------------------------------- */
+
+/** --------------HERO-------------- */
+
 .hero {
   background-color: #2E2F42;
 }
@@ -78,11 +92,87 @@ text-transform: uppercase;
 
 .hero-btn {
   color: #FFF;
+  font-family: inherit;
   font-size: 16px;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
+
+/*! ------------------------------------- */
+
+/**---------features-----------*/
+
+.features {}
+
+.visually-hidden {}
+
+.features-list {}
+
+.features-item {}
+
+.features-subtitle {
+  color: var(--NAVY-BLUE, #2E2F42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.features-item-text {
+  color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*! ------------------------------------- */
+
+/* ---------------Team------------------- */
+
+.team {}
+
+.team-title {
+  color: var(--NAVY-BLUE, #2E2F42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-list {}
+
+.team-item {}
+
+.team-img {}
+
+.team-subtitle {
+  color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-item-text {
+  color: var(--SLATE, #434455);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/*! ------------------------------------- */
+
+/* ---------------portfolio------------------- */
+
+
 
 
 .section {}
