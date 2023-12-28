@@ -47,21 +47,18 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.header-menu-link {
-  color: #2E2F42;}
 
 .header-menu-link:hover,
 .header-menu-link:focus,
 .header-menu-link:active {
  color: #404bbf;}
 
- .header-contacts:hover,
- .header-contacts:focus,
- .header-contacts:active {
-   color: #404bbf
- }
+ /*! ------------------------------------- */
 
- .header-contacts {
+ /** --------------adress-------------- */
+
+
+ .header-contacts-link {
   color: #434455;
     font-size: 16px;
     font-style: normal;
@@ -69,24 +66,13 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
  }
-
-
-.header-mail,.header-tel {
-  color: #434455;
-}
-
- .header-mail:hover,
- .header-mail:focus,
- .header-mail:active {
+ .header-contacts-link:hover,
+ .header-contacts-link:focus,
+ .header-contacts-link:active {
    color: #404bbf
  }
 
- .header-tel:hover,
- .header-tel:focus,
- .header-tel:active {
-   color: #404bbf
- }
- 
+
 /*! ------------------------------------- */
 
 /** --------------HERO-------------- */
