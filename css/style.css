@@ -51,26 +51,29 @@ ul {
 .header-menu-link:hover,
 .header-menu-link:focus,
 .header-menu-link:active {
- color: #404bbf;}
+  color: #404bbf;}
 
  /*! ------------------------------------- */
 
  /** --------------adress-------------- */
 
 
- .header-contacts-link {
+  .header-contacts-link {
   color: #434455;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
- }
- .header-contacts-link:hover,
- .header-contacts-link:focus,
- .header-contacts-link:active {
-   color: #404bbf
- }
+  }
+.header-address {
+  font-style: normal;
+}
+
+  .header-contacts-link:hover,
+  .header-contacts-link:focus,
+  .header-contacts-link:active {
+    color: #404bbf
+  }
 
 
 /*! ------------------------------------- */
