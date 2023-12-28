@@ -24,24 +24,22 @@ ul {
  /* class="header-logo-web"> */
 /*-------------heder--------------*/
 
-.heder-logo {
-color: #4D5AE5;
-font-family: Raleway, sans-serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.16;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+
+
+.header-logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
+
 
 .header-logo-span {
   color: #2E2F42;
 }
-
-
-/* .header-logo-web {
-  color: #4D5AE5;
-} */
 
 
  
@@ -158,7 +156,9 @@ text-transform: uppercase;
 
 /* ---------------Team------------------- */
 
-.team {}
+.team {
+  background-color: #F4F4FD
+}
 
 .team-title {
   color: var(--NAVY-BLUE, #2E2F42);
@@ -170,9 +170,13 @@ text-transform: uppercase;
   text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+  background-color: #FFFFFF
+}
 
-.team-item {}
+.team-item {
+  
+}
 
 .team-img {}
 
