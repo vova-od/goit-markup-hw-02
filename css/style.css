@@ -50,6 +50,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .header-menu-link {
   color: #2E2F42;}
 
@@ -60,26 +61,34 @@ ul {
 
  .header-address {
   color: var(--SLATE, #434455);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
  }
 
-/*.header-menu-link:hover {
- color: brown;
-}*/
-/*.header-menu-link:focus {
- color: brown;
-}*/
+ .header-address:hover,
+ .header-address:focus,
+ .header-address:active {
+  color: #404bbf
+ }
 
-.header-address {}
-
-.header-mail {}
-
-.header-tel {}
+.header-mail {
+  color: #434455;
+}
+ .header-mail:hover,
+ .header-mail:focus,
+ .header-mail:active {
+   color: #404bbf
+ }
+.header-tel {
+  color: #434455;
+}
+ .header-tel:hover,
+ .header-tel:focus,
+ .header-tel:active {
+   color: #404bbf
+ }
 
 .main {}
 
