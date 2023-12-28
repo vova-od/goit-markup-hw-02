@@ -21,10 +21,9 @@ ul {
   clip-path: inset(100%);
   overflow: hidden;
 }
- /* class="header-logo-web"> */
+
+
 /*-------------heder--------------*/
-
-
 
 .header-logo {
   color: #4d5ae5;
@@ -36,13 +35,10 @@ ul {
   text-transform: uppercase;
 }
 
-
 .header-logo-span {
   color: #2E2F42;
 }
 
-
- 
 .header-menu-link {
   color: #2E2F42;
   font-size: 16px;
@@ -59,39 +55,38 @@ ul {
 .header-menu-link:active {
  color: #404bbf;}
 
- .header-address {
-  color: var(--SLATE, #434455);
+ .header-contacts:hover,
+ .header-contacts:focus,
+ .header-contacts:active {
+   color: #404bbf
+ }
+
+ .header-contacts {
+  color: #434455;
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
  }
 
- .header-address:hover,
- .header-address:focus,
- .header-address:active {
-  color: #404bbf
- }
 
-.header-mail {
+.header-mail,.header-tel {
   color: #434455;
 }
+
  .header-mail:hover,
  .header-mail:focus,
  .header-mail:active {
    color: #404bbf
  }
-.header-tel {
-  color: #434455;
-}
+
  .header-tel:hover,
  .header-tel:focus,
  .header-tel:active {
    color: #404bbf
  }
-
-.main {}
-
+ 
 /*! ------------------------------------- */
 
 /** --------------HERO-------------- */
@@ -108,7 +103,6 @@ ul {
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
-
 
 
 .hero-btn {
@@ -137,13 +131,9 @@ ul {
   background-color: #F4F4FD
 }
 
-.visually-hidden {}
-
 .features-list {
   background-color: #FFFFFF
 }
-
-.features-item {}
 
 .features-subtitle {
   color: var(--NAVY-BLUE, #2E2F42);
@@ -187,8 +177,6 @@ ul {
     background-color: #FFFFFF
 }
 
-.team-img {}
-
 .team-subtitle {
   color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -209,7 +197,6 @@ ul {
 /*! ------------------------------------- */
 
 /* ---------------portfolio--------------- */
-.portfolio {}
 
 .portfolio-title {
   color: #D9D9D9;
@@ -222,11 +209,6 @@ ul {
     text-transform: capitalize;
 }
 
-.portfolio-list {}
-
-.portfolio-item {}
-
-.portfolio-img {}
 
 .portfolio-subtitle {
   color: var(--NAVY-BLUE, #2E2F42);
